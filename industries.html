@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Industries — Unixil Global</title>
+  <meta name="description" content="Unixil Global serves oil & gas, petrochemical, power, marine & offshore, water, infrastructure and telecom industries." />
+  <meta name="theme-color" content="#111418" />
+  <link rel="icon" href="assets/img/unixil-icon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Barlow+Condensed:wght@600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <style>
+    .ind-block { display: grid; grid-template-columns: 90px 1fr 1fr; gap: 40px; padding: 56px 0; border-bottom: 1px solid var(--line); align-items: start; }
+    .ind-block:last-child { border-bottom: 0; }
+    .ind-no { font-family: var(--display); font-size: 64px; font-weight: 700; color: var(--orange); line-height: .9; }
+    .ind-block h2 { font-size: clamp(32px, 3.4vw, 46px); }
+    .ind-block .prose p { font-size: 17px; }
+    .pills { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 18px; }
+    .pills a { padding: 8px 14px; border: 1px solid var(--line); font-size: 13px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--ink); transition: all .2s; }
+    .pills a:hover { background: var(--orange); border-color: var(--orange); color: #fff; }
+    @media (max-width: 900px) { .ind-block { grid-template-columns: 1fr; gap: 16px; padding: 44px 0; } .ind-no { font-size: 44px; } }
+  </style>
+</head>
+<body>
+  <main id="main">
+    <section class="page-hero">
+      <div class="hero-art" data-hero-art></div><div class="hero-shade"></div>
+      <div class="container intro-in">
+        <nav class="crumbs" aria-label="Breadcrumb"><a href="index.html">Home</a><span>/</span><span>Industries</span></nav>
+        <span class="eyebrow">Industries</span>
+        <h1>Where reliability is non-negotiable</h1>
+        <p>We understand the standards, materials and certifications each sector demands — and specify accordingly.</p>
+      </div>
+    </section>
+
+    <div class="container">
+      <article class="ind-block reveal" id="oil-gas">
+        <div class="ind-no">01</div>
+        <div><h2>Oil &amp; Gas</h2><div class="pills"><a href="solutions.html#hazardous">Hazardous Area</a><a href="solutions.html#instrumentation">Instrumentation</a><a href="solutions.html#mechanical">GRP</a></div></div>
+        <div class="prose"><p>Wellheads, gathering stations, pipelines and terminals rely on certified Ex equipment, robust instrumentation and corrosion-free cable management. We supply complete packages for classified areas, from junction boxes and glands to tubing, valves and GRP trays.</p></div>
+      </article>
+      <article class="ind-block reveal" id="petrochemical">
+        <div class="ind-no">02</div>
+        <div><h2>Petrochemical &amp; Refining</h2><div class="pills"><a href="solutions.html#hazardous">Hazardous Area</a><a href="solutions.html#electrical">Electrical</a><a href="solutions.html#instrumentation">Instrumentation</a></div></div>
+        <div class="prose"><p>Process plants combine aggressive chemicals with explosive atmospheres. Our Ex enclosures, control stations, lighting and instrument packages are specified for Zone 1 and Zone 2, with GRP systems that resist chemical attack.</p></div>
+      </article>
+      <article class="ind-block reveal" id="power">
+        <div class="ind-no">03</div>
+        <div><h2>Power &amp; Utilities</h2><div class="pills"><a href="solutions.html#electrical">Electrical</a><a href="solutions.html#mechanical">GRP</a><a href="solutions.html#telecom">Telecom</a></div></div>
+        <div class="prose"><p>Power stations, substations and distribution networks need dependable cabling, panels, earthing and lightning protection — plus the telecom backbone that ties assets together.</p></div>
+      </article>
+      <article class="ind-block reveal" id="marine">
+        <div class="ind-no">04</div>
+        <div><h2>Marine &amp; Offshore</h2><div class="pills"><a href="solutions.html#mechanical">GRP</a><a href="solutions.html#hazardous">Hazardous Area</a><a href="solutions.html#telecom">Telecom</a></div></div>
+        <div class="prose"><p>Salt spray and constant humidity destroy ordinary steel. Non-corrosive GRP trays, gratings and supports, SS316 Ex enclosures and marine-grade telecom systems are built for platforms, vessels and coastal terminals.</p></div>
+      </article>
+      <article class="ind-block reveal" id="water">
+        <div class="ind-no">05</div>
+        <div><h2>Water &amp; Wastewater</h2><div class="pills"><a href="solutions.html#instrumentation">Instrumentation</a><a href="solutions.html#electrical">Electrical</a><a href="solutions.html#mechanical">GRP</a></div></div>
+        <div class="prose"><p>Treatment plants, desalination facilities and pumping stations depend on accurate flow and level measurement, reliable motor control and cable management that withstands moisture and chemicals.</p></div>
+      </article>
+      <article class="ind-block reveal" id="infrastructure">
+        <div class="ind-no">06</div>
+        <div><h2>Infrastructure &amp; Construction</h2><div class="pills"><a href="solutions.html#electrical">Electrical</a><a href="solutions.html#telecom">Telecom</a><a href="solutions.html#mechanical">Mechanical</a></div></div>
+        <div class="prose"><p>Industrial buildings, transport hubs and smart-city projects need integrated electrical, ELV and support systems delivered to programme — with one partner coordinating the interfaces.</p></div>
+      </article>
+      <article class="ind-block reveal" id="data">
+        <div class="ind-no">07</div>
+        <div><h2>Telecom &amp; Data</h2><div class="pills"><a href="solutions.html#telecom">Telecom</a><a href="solutions.html#electrical">Electrical</a></div></div>
+        <div class="prose"><p>Fiber backbones, structured cabling, tower infrastructure and the power systems behind them — tested, documented and ready for service.</p></div>
+      </article>
+    </div>
+
+    <section class="cta">
+      <div class="cta-hex" data-cta-hex aria-hidden="true"></div>
+      <div class="container">
+        <div><h2>Working in a classified area?</h2><p>Talk to us about certified equipment for Zone 1 and Zone 2 installations.</p></div>
+        <a class="btn btn-primary" href="contact.html?topic=Hazardous%20Area%20Equipment#enquiry">Talk to an engineer</a>
+      </div>
+    </section>
+  </main>
+  <script src="assets/js/art.js"></script>
+  <script src="assets/js/site.js"></script>
+</body>
+</html>
